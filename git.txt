@@ -11,4 +11,5 @@
 |>) git config --global user.name "Your Name"
 
  $ git log --> to see login info
- $ 
+ 
+ $ git checkout => to revert back [rollback] the last position in our local repositary 
