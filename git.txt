@@ -17,4 +17,39 @@
 TODO: add remote repositary
 
 $ git remote add origin{***new remote***} https://github.com/DVtheDeveloper/git-commands.git
-$ git push -u origin{*** remote ***} master{*** branch ***}
+$ git push -u origin{*** remote ***} master{*** branch *** }
+
+TODO: Adding ingnored files with secrets you don't want to share to this public plateform like github
+<<< ? show some tutorials on git ignore ? >>>
+
+$ git add .
+$ git status ==> it would add all the files in the staging area
+$ git status ==> shows all the files added but if you don't commit it it won't being added
+
+>>- to remove that prompt -<<
+
+$ git rm --cached -r{flag for recursive} . ==> everything inside the staging directory should be removed from the staging area
+
+................
+
+*** adding specific extentions ***
+$ git add *.txt
+
+TODO: cloning git projects into our local machines
+
+$ git clone urlFromGIT
+
+! apple - xcode project emulator !
+
+TODO: Branching and Merging
+
+->> to create branch : $ git branch branch-name
+
+->> to see all branches : $ git branch 
+
+* branch-one
+branch-second
+
+"*" shows which branch you are currently in
+
+=<< switch branch : $ git checkout branch-second >>=
