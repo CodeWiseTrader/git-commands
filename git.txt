@@ -1,0 +1,14 @@
+ ? cmd commands <=
+ 
+ $ git init -- to make a git repositary
+    --> to see the repositary $ ls -a
+ $ git add Filename.xyz --> to add a file into that repositary
+ $ git add . => to add everything inside a specific directory
+ $ git status --> to check wether the file is added or not, if added it would be in green than red
+ $ git commit -m "present tense message" --> the very important thing for git repositary ->> a message
+
+|>) git config --global user.email "you@example.com"
+|>) git config --global user.name "Your Name"
+
+ $ git log --> to see login info
+ $ 
