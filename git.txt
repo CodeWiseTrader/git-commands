@@ -13,3 +13,8 @@
  $ git log --> to see login info
  
  $ git checkout => to revert back [rollback] the last position in our local repositary 
+
+TODO: add remote repositary
+
+$ git remote add origin{***new remote***} https://github.com/DVtheDeveloper/git-commands.git
+$ git push -u origin{*** remote ***} master{*** branch ***}
